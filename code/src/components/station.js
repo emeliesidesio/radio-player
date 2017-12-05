@@ -6,6 +6,10 @@ class Station extends React.Component {
       <div>
         <div>{this.props.name}</div>
         <img src={this.props.image} alt="text" />
+        <div>{this.props.color}</div>
+        <audio controls src={this.props.audio} type="audio/mpeg">
+          <track kind="captions" />
+        </audio>
       </div>
     )
   }

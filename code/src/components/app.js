@@ -22,8 +22,11 @@ class App extends React.Component {
       <div className="station">
         {this.state.radioChannels.map((item) => {
           return <Station
+            key={item.id}
             name={item.name}
-            image={item.image} />
+            image={item.image}
+            color={item.color}
+            audio={item.liveaudio.url} />
         })}
       </div>
     )
