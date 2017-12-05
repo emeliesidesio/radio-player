@@ -1,5 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.station {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.radio-box {
+  display: flex;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 17.5vw;
+}
+
+.image-box {
+  display: flex;
+  width: 35%;
+  margin: 0;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 65%;
+  padding-left: 30px;
+}
+
+img {
+  object-fit: contain;
+  background-size: cover;
+  width: 100%;
+}
+
+audio {
+  width: 90%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
 }
