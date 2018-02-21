@@ -20,6 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="station">
+        <h1>Lyssna direkt på Sveriges Radio</h1>
         {this.state.radioChannels.map((item) => {
           return <Station
             key={item.id}

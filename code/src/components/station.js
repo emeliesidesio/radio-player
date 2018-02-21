@@ -8,7 +8,7 @@ class Station extends React.Component {
           <img src={this.props.image} alt="text" />
         </div>
         <div className="content-box" style={{ backgroundColor: `#${this.props.color}` }}>
-          <h1>{this.props.name}</h1>
+          <h2>{this.props.name}</h2>
           <audio controls src={this.props.audio} type="audio/mpeg">
             <track kind="captions" />
           </audio>
